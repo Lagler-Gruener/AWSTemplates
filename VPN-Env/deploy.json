@@ -1,0 +1,668 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "6e4120ee-dc11-4a8d-bf6b-41da759600f8": {
+                "size": {
+                    "width": 150,
+                    "height": 150
+                },
+                "position": {
+                    "x": 150,
+                    "y": 30
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "ba8f6044-b6cc-43fb-97d3-75ca30e8149c": {
+                "size": {
+                    "width": 150,
+                    "height": 150
+                },
+                "position": {
+                    "x": 360,
+                    "y": 30
+                },
+                "z": 1,
+                "embeds": [],
+                "iscontainedinside": [
+                    "6e4120ee-dc11-4a8d-bf6b-41da759600f8"
+                ]
+            },
+            "d105238a-2c80-45df-8e8c-4e79cca504e2": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 660,
+                    "y": 210
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "7733e6f3-0243-4a68-8bd9-2c7180ea68e3": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 570,
+                    "y": 330
+                },
+                "z": 1,
+                "embeds": [],
+                "dependson": [
+                    "d105238a-2c80-45df-8e8c-4e79cca504e2"
+                ]
+            },
+            "53fc6e42-842f-4c74-9ecd-c7998ba5a004": {
+                "source": {
+                    "id": "d105238a-2c80-45df-8e8c-4e79cca504e2"
+                },
+                "target": {
+                    "id": "7733e6f3-0243-4a68-8bd9-2c7180ea68e3"
+                },
+                "z": 1
+            },
+            "b527e669-4def-4705-a040-5b192600b54c": {
+                "source": {
+                    "id": "d105238a-2c80-45df-8e8c-4e79cca504e2"
+                },
+                "target": {
+                    "id": "6e4120ee-dc11-4a8d-bf6b-41da759600f8"
+                },
+                "z": 1
+            },
+            "07a1633a-cbd0-436f-bd2e-00ac3b5d67b8": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 720,
+                    "y": 330
+                },
+                "z": 1,
+                "embeds": [],
+                "dependson": [
+                    "d105238a-2c80-45df-8e8c-4e79cca504e2"
+                ]
+            },
+            "fff64cca-f97d-41ea-be86-c11b884c083d": {
+                "source": {
+                    "id": "d105238a-2c80-45df-8e8c-4e79cca504e2"
+                },
+                "target": {
+                    "id": "07a1633a-cbd0-436f-bd2e-00ac3b5d67b8"
+                },
+                "z": 1
+            },
+            "12d0d1be-9f17-4143-964c-5e5802ef72ce": {
+                "size": {
+                    "width": 150,
+                    "height": 150
+                },
+                "position": {
+                    "x": 750,
+                    "y": 90
+                },
+                "z": 1,
+                "embeds": [],
+                "iscontainedinside": [
+                    "6e4120ee-dc11-4a8d-bf6b-41da759600f8"
+                ],
+                "dependson": [
+                    "ba8f6044-b6cc-43fb-97d3-75ca30e8149c"
+                ]
+            },
+            "6d9fb9b5-4b9f-4df1-af49-15ebfec8491d": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 840,
+                    "y": 300
+                },
+                "z": 1,
+                "embeds": [],
+                "isassociatedwith": [
+                    "d105238a-2c80-45df-8e8c-4e79cca504e2"
+                ],
+                "dependson": [
+                    "12d0d1be-9f17-4143-964c-5e5802ef72ce"
+                ]
+            },
+            "a7de854e-a661-44ee-b922-2b2229d99b64": {
+                "source": {
+                    "id": "12d0d1be-9f17-4143-964c-5e5802ef72ce"
+                },
+                "target": {
+                    "id": "ba8f6044-b6cc-43fb-97d3-75ca30e8149c"
+                },
+                "z": 1
+            },
+            "404c0046-ff99-429c-9000-a9a96ed7a201": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 990,
+                    "y": 300
+                },
+                "z": 1,
+                "embeds": [],
+                "isassociatedwith": [
+                    "d105238a-2c80-45df-8e8c-4e79cca504e2"
+                ],
+                "dependson": [
+                    "12d0d1be-9f17-4143-964c-5e5802ef72ce"
+                ]
+            },
+            "47853174-aef9-4e95-a321-a28e53b72429": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 720,
+                    "y": 420
+                },
+                "z": 1,
+                "embeds": [],
+                "dependson": [
+                    "07a1633a-cbd0-436f-bd2e-00ac3b5d67b8",
+                    "fff64cca-f97d-41ea-be86-c11b884c083d"
+                ]
+            },
+            "ce9f5160-165b-4afe-b8bd-c4d830a17e82": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 570,
+                    "y": 420
+                },
+                "z": 1,
+                "embeds": [],
+                "dependson": [
+                    "7733e6f3-0243-4a68-8bd9-2c7180ea68e3",
+                    "53fc6e42-842f-4c74-9ecd-c7998ba5a004"
+                ]
+            },
+            "15948b5d-d045-4cd8-bd9f-a098b6a69bd5": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 150,
+                    "y": 300
+                },
+                "z": 1,
+                "embeds": [],
+                "isassociatedwith": [
+                    "216cf409-08d8-4185-9c33-b2acae3d9d7c",
+                    "3920741f-8a65-4890-b46e-5923f53644c1"
+                ]
+            },
+            "3920741f-8a65-4890-b46e-5923f53644c1": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 240,
+                    "y": 300
+                },
+                "z": 1,
+                "embeds": [],
+                "isassociatedwith": [
+                    "927b1535-5cc3-43a1-8192-6913ef111a48"
+                ],
+                "iscontainedinside": [
+                    "ba8f6044-b6cc-43fb-97d3-75ca30e8149c"
+                ]
+            },
+            "927b1535-5cc3-43a1-8192-6913ef111a48": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 390,
+                    "y": 300
+                },
+                "z": 1,
+                "embeds": [],
+                "iscontainedinside": [
+                    "6e4120ee-dc11-4a8d-bf6b-41da759600f8"
+                ]
+            },
+            "8e8582cc-1725-498a-b630-e196a8b5de02": {
+                "source": {
+                    "id": "927b1535-5cc3-43a1-8192-6913ef111a48"
+                },
+                "target": {
+                    "id": "6e4120ee-dc11-4a8d-bf6b-41da759600f8"
+                },
+                "z": 11
+            },
+            "29c1b884-afa7-4792-8035-a2232c479349": {
+                "source": {
+                    "id": "3920741f-8a65-4890-b46e-5923f53644c1"
+                },
+                "target": {
+                    "id": "ba8f6044-b6cc-43fb-97d3-75ca30e8149c"
+                },
+                "z": 12
+            }
+        }
+    },
+    "Resources": {
+        "ProdVPC": {
+            "Type": "AWS::EC2::VPC",
+            "Properties": {
+                "CidrBlock": "10.3.0.0/16",
+                "EnableDnsHostnames": true,
+                "EnableDnsSupport": true,
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "Demo-VPC-Prod"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "6e4120ee-dc11-4a8d-bf6b-41da759600f8"
+                }
+            }
+        },
+        "SubBackend": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "CidrBlock": "10.3.1.0/24",
+                "VpcId": {
+                    "Ref": "ProdVPC"
+                },
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "Backend"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "ba8f6044-b6cc-43fb-97d3-75ca30e8149c"
+                }
+            }
+        },
+        "ProdVPNGW": {
+            "Type": "AWS::EC2::VPNGateway",
+            "Properties": {
+                "Type": "ipsec.1",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "Demo-Prod-GW"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "d105238a-2c80-45df-8e8c-4e79cca504e2"
+                }
+            }
+        },
+        "AttachVpnGateway": {
+            "Type": "AWS::EC2::VPCGatewayAttachment",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "ProdVPC"
+                },
+                "VpnGatewayId": {
+                    "Ref": "ProdVPNGW"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "b527e669-4def-4705-a040-5b192600b54c"
+                }
+            }
+        },
+        "ProdHomeGW": {
+            "Type": "AWS::EC2::CustomerGateway",
+            "Properties": {
+                "IpAddress": {
+                    "Ref": "OnPremGWIP"
+                },
+                "Type": "ipsec.1",
+                "BgpAsn": "65000",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "Demo-Cust-GW-Home"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "7733e6f3-0243-4a68-8bd9-2c7180ea68e3"
+                }
+            },
+            "DependsOn": [
+                "ProdVPNGW"
+            ]
+        },
+        "OnPremVPNCon": {
+            "Type": "AWS::EC2::VPNConnection",
+            "Properties": {
+                "Type": "ipsec.1",
+                "StaticRoutesOnly": "true",
+                "CustomerGatewayId": {
+                    "Ref": "ProdHomeGW"
+                },
+                "VpnGatewayId": {
+                    "Ref": "ProdVPNGW"
+                },
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "Demo-Prod-Con-Home"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "53fc6e42-842f-4c74-9ecd-c7998ba5a004"
+                }
+            }
+        },
+        "OnPremVPNConRoute": {
+            "Type": "AWS::EC2::VPNConnectionRoute",
+            "Properties": {
+                "DestinationCidrBlock": {
+                    "Ref": "OnPremCIDR"
+                },
+                "VpnConnectionId": {
+                    "Ref": "OnPremVPNCon"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "ce9f5160-165b-4afe-b8bd-c4d830a17e82"
+                }
+            },
+            "DependsOn": [
+                "OnPremVPNCon"
+            ]
+        },
+        "ProdAzureGW": {
+            "Type": "AWS::EC2::CustomerGateway",
+            "Properties": {
+                "IpAddress": {
+                    "Ref": "AzureGWIP"
+                },
+                "Type": "ipsec.1",
+                "BgpAsn": "65000",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "Demo-Cust-GW-AWS"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "07a1633a-cbd0-436f-bd2e-00ac3b5d67b8"
+                }
+            },
+            "DependsOn": [
+                "ProdVPNGW"
+            ]
+        },
+        "AWSVPNCon": {
+            "Type": "AWS::EC2::VPNConnection",
+            "Properties": {
+                "Type": "ipsec.1",
+                "StaticRoutesOnly": "true",
+                "CustomerGatewayId": {
+                    "Ref": "ProdAzureGW"
+                },
+                "VpnGatewayId": {
+                    "Ref": "ProdVPNGW"
+                },
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "Demo-Prod-Con-Azure"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "fff64cca-f97d-41ea-be86-c11b884c083d"
+                }
+            }
+        },
+        "AWSVPNConRoute": {
+            "Type": "AWS::EC2::VPNConnectionRoute",
+            "Properties": {
+                "DestinationCidrBlock": {
+                    "Ref": "AzureCIDR"
+                },
+                "VpnConnectionId": {
+                    "Ref": "AWSVPNCon"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "47853174-aef9-4e95-a321-a28e53b72429"
+                }
+            },
+            "DependsOn": [
+                "AWSVPNCon"
+            ]
+        },
+        "DefaultRouteTable": {
+            "Type": "AWS::EC2::RouteTable",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "ProdVPC"
+                },
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "Demo-FullMesh-VPN-RouteTable"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "12d0d1be-9f17-4143-964c-5e5802ef72ce"
+                }
+            },
+            "DependsOn": [
+                "SubBackend"
+            ]
+        },
+        "RouteOnPrem": {
+            "Type": "AWS::EC2::Route",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "DefaultRouteTable"
+                },
+                "DestinationCidrBlock": {
+                    "Ref": "OnPremCIDR"
+                },
+                "GatewayId": {
+                    "Ref": "ProdVPNGW"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "6d9fb9b5-4b9f-4df1-af49-15ebfec8491d"
+                }
+            },
+            "DependsOn": [
+                "DefaultRouteTable"
+            ]
+        },
+        "RouteAzure": {
+            "Type": "AWS::EC2::Route",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "DefaultRouteTable"
+                },
+                "DestinationCidrBlock": {
+                    "Ref": "AzureCIDR"
+                },
+                "GatewayId": {
+                    "Ref": "ProdVPNGW"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "404c0046-ff99-429c-9000-a9a96ed7a201"
+                }
+            },
+            "DependsOn": [
+                "DefaultRouteTable"
+            ]
+        },
+        "DefaultRouteTableRouteAssociation": {
+            "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "DefaultRouteTable"
+                },
+                "SubnetId": {
+                    "Ref": "SubBackend"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "a7de854e-a661-44ee-b922-2b2229d99b64"
+                }
+            }
+        },
+        "DemoEC2Instance": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "Demo-VPC-Client"
+                    }
+                ],
+                "ImageId": "ami-0ec1ba09723e5bfac",
+                "InstanceType": "t2.small",
+                "KeyName": "home-keypair",
+                "NetworkInterfaces": [
+                    {
+                        "DeviceIndex": "0",
+                        "NetworkInterfaceId": {
+                            "Ref": "DemoEC2InstanceETH0"
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "15948b5d-d045-4cd8-bd9f-a098b6a69bd5"
+                }
+            }
+        },
+        "DemoEC2InstanceETH0": {
+            "Type": "AWS::EC2::NetworkInterface",
+            "Properties": {
+                "Description": "eth0",
+                "SourceDestCheck": "true",
+                "GroupSet": [
+                    {
+                        "Ref": "DemoEC2SG"
+                    }
+                ],
+                "SubnetId": {
+                    "Ref": "SubBackend"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "3920741f-8a65-4890-b46e-5923f53644c1"
+                }
+            }
+        },
+        "DemoEC2SG": {
+            "Type": "AWS::EC2::SecurityGroup",
+            "Properties": {
+                "GroupDescription": "Allow ssh to client host",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "Demo-FullMesh-VPN-SG"
+                    }
+                ],
+                "SecurityGroupIngress": [
+                    {
+                        "IpProtocol": "tcp",
+                        "FromPort": 22,
+                        "ToPort": 22,
+                        "CidrIp": "0.0.0.0/0"
+                    }
+                ],
+                "VpcId": {
+                    "Ref": "ProdVPC"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "927b1535-5cc3-43a1-8192-6913ef111a48"
+                }
+            }
+        }
+    },
+    "Parameters": {
+        "OnPremGWIP": {
+            "Type": "String",
+            "Default": "1.2.3.4",
+            "Description": "Please Enter the On-Prem gateway public IP"
+        },
+        "OnPremCIDR": {
+            "Type": "String",
+            "Default": "10.0.1.0/24",
+            "Description": "Please Enter the On-Prem IP Adress space"
+        },
+        "AzureGWIP": {
+            "Type": "String",
+            "Default": "1.2.3.4",
+            "Description": "Please Enter the Azure gateway public IP"
+        },
+        "AzureCIDR": {
+            "Type": "String",
+            "Default": "10.2.0.0/16",
+            "Description": "Please Enter the Azure IP Adress space"
+        },
+        "EC2KeyPair": {
+            "Type": "String",
+            "Default": "DefaultKeyPair",
+            "Description": "Please Enter the EC2 KeyPair name"
+        }
+    },
+    "Outputs": {
+        "DemoVM": {
+            "Description": "The Instance IP",
+            "Value": {
+                "Fn::GetAtt": [
+                    "DemoEC2Instance",
+                    "PrivateIp"
+                ]
+            }
+        }
+    }
+}
